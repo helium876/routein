@@ -1,0 +1,20 @@
+.via{
+	text-align: left;
+	word-wrap: break-word;
+}
+
+
+.item p{
+	text-overflow: initial;
+	overflow-wrap: normal;
+	overflow: inherit;
+	white-space: pre-wrap;
+}
+
+/*.origin_list,
+.origin_list > .item-content{
+	padding: 10px !important;
+	border: none;
+	color: #fff;
+	background-color: #828282;
+}*/

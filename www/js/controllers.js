@@ -9,34 +9,130 @@ angular.module('JUTC.controllers', [])
       id: 1,
       routes: [
         {
+          busNum: '6',
+          locationTo: 'Spanish Town',
+          via: 'Naggo Head, Passagefort Drive, Gregory Park, Mandela Highway',
+          price: "100"
+        },
+        {
+          busNum: '16',
+          locationTo: 'Cross Roads',
+          via: 'Braeton Parkway, Portmore Toll Road, Marcus Garvey Dr., City',
+          price: "100"
+        },
+        {
+          busNum: '16A',
+          locationTo: 'Cross Roads',
+          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
+          price: "100"
+        },
+        {
+          busNum: '16B',
+          locationTo: 'Constant Spring',
+          via: 'Hellshire Main Road, Mandela Highway, Dunrobin',
+          price: "100"
+        },
+        {
+          busNum: '17',
+          locationTo: 'City',
+          via: 'Hellshire Main Road, Portmore Toll Road, Marcus Garvey Drive',
+          price: "100"
+        },
+        {
           busNum: '17A',
           locationTo: 'Half Way Tree',
           via: 'Hellshire Main Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          price: "100"
         },
         {
           busNum: '18',
           locationTo: 'City',
           via: 'Braeton Road, Portmore Toll Road, Marcus Garvey Drive',
-          price: ""
+          price: "100"
         },
         {
           busNum: '18A',
           locationTo: 'Half Way Tree',
           via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          price: "100"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '20',
+          locationTo: 'City',
+          via: 'Braeton Parkway, Portmore Toll Road, Marcus Garvey Dr.',
+          price: "100"
         },
         {
-          busNum: '18A',
+          busNum: '20A',
           locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          via: 'Braeton Parkway, Portmore Toll Road, Hagley Park Road',
+          price: "100"
+        },
+        {
+          busNum: '16Bx',
+          locationTo: 'Constant Spring',
+          via: 'Hellshire Main Road, Mandela Highway, Dunrobin',
+          price: "160"
+        },
+        {
+          busNum: '17Ax',
+          locationTo: 'New Kingston',
+          via: 'Hellshire Main Road, Portmore Toll Road, Hagley Park Road, Half Way Tree',
+          price: "160"
+        },
+        {
+          busNum: '17Ex',
+          locationTo: 'Cross Roads',
+          via: 'Hellshire Main Road, Portmore Toll Road, Marcus Garvey Drive',
+          price: "180"
+        },
+        {
+          busNum: '19Ax',
+          locationTo: 'Papine',
+          via: 'Hellshire Main Road, Portmore Toll Road, Hagley Park Road, Hope Road',
+          price: "180"
+        },
+        {
+          busNum: '20Ax',
+          locationTo: 'New Kingston',
+          via: 'Braeton Parkway, Portmore Toll Road, Hagley Park Road',
+          price: "160"
+        },
+        {
+          busNum: '101',
+          locationTo: 'Constant Spring',
+          via: 'Braeton Road, Mandela Highway, Molynes Road',
+          price: "100"
+        },
+        {
+          busNum: '316',
+          locationTo: 'Cross Roads',
+          via: 'Hellshire Main Road, Mandela Highway, New Kingston',
+          price: "200"
+        },
+        {
+          busNum: '317',
+          locationTo: 'Cross Roads',
+          via: 'Hellshire Main Road, Portmore Toll Road, Marcus Garvey Drive, City',
+          price: "200"
+        },
+        {
+          busNum: '318',
+          locationTo: 'Cross Roads',
+          via: 'Braeton Parkway, Half Way Tree, New Kingston',
+          price: "200"
+        },
+        {
+          busNum: '319',
+          locationTo: 'Papine',
+          via: 'Hellshire Main Road, Portmore Toll Road, Hagley Park Road, Hope Road',
+          price: "220"
+        },
+        {
+          busNum: '320',
+          locationTo: 'Cross Roads',
+          via: 'Braeton Parkway, Portmore Toll Road, Half Way Tree Road',
+          price: "200"
         }
       ]
     },
@@ -45,34 +141,52 @@ angular.module('JUTC.controllers', [])
       id: 2,
       routes: [
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '103',
+          locationTo: 'Cross Roads',
+          via: 'Washington Boulevard, Molynes Road, New Kingston',
+          price: "100"
         },
         {
-          busNum: '18A',
+          busNum: '21',
           locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          via: 'Washington Boulevard, Molynes Road',
+          price: "100"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '22',
+          locationTo: 'City',
+          via: 'Spanish Town Road',
+          price: "100"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '22A',
+          locationTo: 'City',
+          via: 'Marcus Garvey Drive',
+          price: "100"
         },
         {
-          busNum: '18A',
+          busNum: '23A',
           locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          via: 'Washington Blvd., Dunrobin Avenue',
+          price: "100"
+        },
+        {
+          busNum: '21Ax',
+          locationTo: 'Cross Roads',
+          via: 'Washington Boulevard, Molynes Road, New Kingston',
+          price: "160"
+        },
+        {
+          busNum: '21Ex',
+          locationTo: 'Cross Roads',
+          via: 'Washington Boulevard, Molynes Road, Half Way Tree Road',
+          price: "160"
+        },
+        {
+          busNum: '22Ax',
+          locationTo: 'City',
+          via: 'Marcus Garvey Drive',
+          price: "160"
         }
       ]
     },
@@ -81,286 +195,195 @@ angular.module('JUTC.controllers', [])
       id: 3,
       routes: [
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '500',
+          locationTo: 'City',
+          via: 'Cross Roads, Slipe Road',
+          price: "100"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '800',
+          locationTo: 'Cross Roads',
+          via: 'New Kingston',
+          price: "100"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '83',
+          locationTo: 'City',
+          via: 'Mountain View Avenue',
+          price: "100"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '83Ex',
+          locationTo: 'City',
+          via: 'Mountain View Avenue',
+          price: "130"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        }
-      ]
-    },
-    /* ------------------------------------*/
-    { name: 'Papine',
-      id: 4,
-      routes: [
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '600',
+          locationTo: 'City',
+          via: 'Cross Roads, Heroes Circle, East Street',
+          price: "100"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '700',
+          locationTo: 'City',
+          via: 'Lyndhurst Road, Slipe Pen Road',
+          price: "100"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '900',
+          locationTo: 'Papine',
+          via: 'Hope Road',
+          price: "100"
         }
       ]
     },
     /* ------------------------------------*/
     { name: 'City',
-      id: 5,
+      id: 4,
       routes: [
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '315',
+          locationTo: 'Greater Portmore',
+          via: 'Marcus Garvey Drive, Portmore Toll Road, Braeton Parkway',
+          price: "200"
         }
       ]
     },
     /* ------------------------------------*/
     { name: 'Cross Roads',
-      id: 6,
+      id: 5,
       routes: [
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '86',
+          locationTo: 'City',
+          via: 'South Camp Road, East Street, Port Royal Street',
+          price: "100"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '88',
+          locationTo: 'City',
+          via: 'Mountain View Avenue, Deanery Road, East Street',
+          price: "100"
         }
       ]
     },
     /* ------------------------------------*/
     { name: 'Harbour View',
-      id: 7,
+      id: 6,
       routes: [
         {
-          busNum: '18A',
+          busNum: '295',
           locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          via: 'Mountain View Avenue, New Kingston',
+          price: "200"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '99',
+          locationTo: 'City',
+          via: 'Sir Florizel Glaspole Highway, Windward Road',
+          price: "100"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '99Ex',
+          locationTo: 'Harbour View',
+          via: 'Sir Florizel Glaspole Highway, Windward Road',
+          price: "130"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
+          busNum: '102',
+          locationTo: 'August Town',
+          via: 'East Street, Half Way Tree Road, Papine',
           price: ""
         }
       ]
     },
     /* ------------------------------------*/
     { name: 'Bull Bay',
-      id: 8,
+      id: 7,
       routes: [
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '97',
+          locationTo: 'City',
+          via: 'Sir Florizel Glaspole Highway, Windward Road',
+          price: "100"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '97Ex',
+          locationTo: 'City',
+          via: 'Sir Florizel Glaspole Highway, Windward Road',
+          price: "130"
         }
       ]
     },
     /* ------------------------------------*/
     { name: 'Norbrook',
-      id: 9,
+      id: 8,
       routes: [
         {
-          busNum: '18A',
+          busNum: '49',
           locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
-        },
-        {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          via: 'Shortwood Road',
+          price: "100"
         }
       ]
     },
     /* ------------------------------------*/
-    { name: 'Hellshire ',
+    { name: 'Hellshire',
+      id: 9,
+      routes: [
+        {
+          busNum: '1',
+          locationTo: 'City',
+          via: 'Naggo Head, Portmore Toll Road, Marcus Garvey Drive',
+          price: "100"
+        },
+        {
+          busNum: '1A',
+          locationTo: 'Half Way Tree',
+          via: 'Naggo Head, Portmore Toll Road, Hagley Park Road',
+          price: "100"
+        },
+        {
+          busNum: '301',
+          locationTo: 'Cross Roads',
+          via: 'Hellshire Main Road, Portmore Toll Road, New Kingston',
+          price: "200"
+        }
+      ]
+    },
+    { name: 'Christian Gardens',
       id: 10,
       routes: [
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '3',
+          locationTo: 'City',
+          via: 'Passagefort Drive, Portmore Toll Road, Marcus Garvey Drive',
+          price: "100"
         },
         {
-          busNum: '18A',
+          busNum: '3A',
           locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          via: 'Passagefort Drive, Portmore Toll Road, Hagley Park Road',
+          price: "100"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '4',
+          locationTo: 'Cross Roads',
+          via: 'Passagefort Drive, Portmore Toll Road, Marcus Garvey Dr., City',
+          price: "100"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '3Ax',
+          locationTo: 'New Kingston',
+          via: 'Passagefort Drive, Portmore Toll Road, Hagley Park Road, Half Way Tree',
+          price: "160"
         },
         {
-          busNum: '18A',
-          locationTo: 'Half Way Tree',
-          via: 'Braeton Road, Portmore Toll Road, Hagley Park Road',
-          price: ""
+          busNum: '303',
+          locationTo: 'Papine',
+          via: 'Waterford, Portmore Toll Road, Hope Road',
+          price: "200"
         }
       ]
     }

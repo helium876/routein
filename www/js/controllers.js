@@ -289,12 +289,6 @@ angular.module('JUTC.controllers', [])
           locationTo: 'Harbour View',
           via: 'Sir Florizel Glaspole Highway, Windward Road',
           price: "130"
-        },
-        {
-          busNum: '102',
-          locationTo: 'August Town',
-          via: 'East Street, Half Way Tree Road, Papine',
-          price: ""
         }
       ]
     },

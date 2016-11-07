@@ -289,6 +289,12 @@ angular.module('JUTC.controllers', [])
           locationTo: 'Harbour View',
           via: 'Sir Florizel Glaspole Highway, Windward Road',
           price: "130"
+        },
+        {
+          busNum: '102',
+          locationTo: 'August Town',
+          via: 'East Street, Half Way Tree Road, Papine',
+          price: ""
         }
       ]
     },
@@ -346,6 +352,7 @@ angular.module('JUTC.controllers', [])
         }
       ]
     },
+    /* ------------------------------------*/
     { name: 'Christian Gardens',
       id: 10,
       routes: [
@@ -378,6 +385,515 @@ angular.module('JUTC.controllers', [])
           locationTo: 'Papine',
           via: 'Waterford, Portmore Toll Road, Hope Road',
           price: "200"
+        }
+      ]
+    },
+    { name: 'Naggo Head',
+      id: 11,
+      routes: [
+        {
+          busNum: '8',
+          locationTo: 'City',
+          via: 'Garveymeade, Westchester, Portmore Toll Road, Marcus Garvey Dr.',
+          price: "100"
+        },
+        {
+          busNum: '8A',
+          locationTo: 'Half Way Tree',
+          via: 'Garveymeade, Westchester, Portmore Toll Road, Hagley Park Road',
+          price: "100"
+        },
+        {
+          busNum: '12',
+          locationTo: 'City',
+          via: 'Cumberland, Portmore Toll Road, Marcus Garvey Drive',
+          price: "100"
+        },
+        {
+          busNum: '12A',
+          locationTo: 'Half Way Tree',
+          via: 'Cumberland, Portmore Toll Road, Hagley Park Road',
+          price: "100"
+        },
+        {
+          busNum: '8Ax',
+          locationTo: 'New Kingston',
+          via: 'Garveymeade, Westchester, Portmore Toll Road, Half Way Tree',
+          price: "160"
+        },
+        {
+          busNum: '308',
+          locationTo: 'New Kingston',
+          via: 'Portmore Toll Road, Hope Road',
+          price: "200"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Constant Spring',
+      id: 12,
+      routes: [
+        {
+          busNum: '42',
+          locationTo: 'Half Way Tree',
+          via: 'Constant Spring Road',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Above Rocks',
+      id: 13,
+      routes: [
+        {
+          busNum: '53',
+          locationTo: 'Half Way Tree',
+          via: 'Stony Hill, Constant Spring Road',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Border',
+      id: 14,
+      routes: [
+        {
+          busNum: '54',
+          locationTo: 'Half Way Tree',
+          via: 'Lawrence Tavern, Stony Hill, Golden Spring, Constant Spring Road',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Inswood Village',
+      id: 15,
+      routes: [
+        {
+          busNum: '121',
+          locationTo: 'City',
+          via: 'Washington Boulevard, Molynes Road, New Kingston',
+          price: "220"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Ensom Acres',
+      id: 16,
+      routes: [
+        {
+          busNum: '123',
+          locationTo: 'Cross Roads',
+          via: 'Washington Boulevard, Molynes Road, New Kingston',
+          price: "200"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Ebony Vale',
+      id: 17,
+      routes: [
+        {
+          busNum: '124',
+          locationTo: 'City',
+          via: 'Molynes Road, New Kingston, Slipe Road',
+          price: "220"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Green Acres/Mercury Gdns',
+      id: 18,
+      routes: [
+        {
+          busNum: '125',
+          locationTo: 'Cross Roads',
+          via: 'Washington Boulevard, Molynes Road, New Kingston',
+          price: "220"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'White Waters',
+      id: 19,
+      routes: [
+        {
+          busNum: '126',
+          locationTo: 'Cross Roads',
+          via: 'Washington Boulevard, Molynes Road, New Kingston',
+          price: "220"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Angels/ Eltham ',
+      id: 20,
+      routes: [
+        {
+          busNum: '127',
+          locationTo: 'Cross Roads',
+          via: 'Washington Boulevard, Molynes Road, New Kingston',
+          price: "220"
+        },
+        {
+          busNum: '129',
+          locationTo: 'City',
+          via: 'Molynes Road, New Kingston, Slipe Road',
+          price: "220"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Angels',
+      id: 21,
+      routes: [
+        {
+          busNum: '128',
+          locationTo: 'Papine',
+          via: 'Washington Boulevard, Molynes Road, Hope Road',
+          price: "230"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Longville',
+      id: 22,
+      routes: [
+        {
+          busNum: '130',
+          locationTo: 'City',
+          via: 'Molynes Road, New Kingston, Slipe Road',
+          price: "320"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Cumberland ',
+      id: 23,
+      routes: [
+        {
+          busNum: '312',
+          locationTo: 'Cross Roads',
+          via: 'Portmore Toll Road, Hagley Park Rd., New Kingston',
+          price: "200"
+        },
+        {
+          busNum: '314',
+          locationTo: 'New Kingston',
+          via: 'Cumberland, Portmore Toll Road, Marcus Garvey Drive, City, Cross Roads',
+          price: "200"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Pembroke Hall',
+      id: 24,
+      routes: [
+        {
+          busNum: '30',
+          locationTo: 'City',
+          via: 'Waltham Park Road, Spanish Town Road',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Chancery Street',
+      id: 25,
+      routes: [
+        {
+          busNum: '31',
+          locationTo: 'City',
+          via: 'Weymouth Drive, Spanish Town Road',
+          price: "100"
+        },
+        {
+          busNum: '31A',
+          locationTo: 'City',
+          via: 'Weymouth Drive, Marcus Garvey Drive',
+          price: "100"
+        },
+        {
+          busNum: '47',
+          locationTo: 'Half Way Tree',
+          via: 'Molynes Road',
+          price: "100"
+        },
+        {
+          busNum: '31Ax',
+          locationTo: 'City',
+          via: 'Weymouth Drive, Marcus Garvey Drive',
+          price: "130"
+        },
+        {
+          busNum: '47Ex',
+          locationTo: 'Cross Roads',
+          via: 'Molynes Road, Lyndhurst Road',
+          price: "130"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Cooreville Gardens',
+      id: 26,
+      routes: [
+        {
+          busNum: '32',
+          locationTo: 'Half Way Tree',
+          via: 'Duhaney Park, Washington Blvd., Dunrobin Avenue',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Great House Circle',
+      id: 27,
+      routes: [
+        {
+          busNum: '44',
+          locationTo: 'Half Way Tree',
+          via: 'Havendale, Whitehall Avenue, Red Hills Road',
+          price: "100"
+        },
+        {
+          busNum: '46',
+          locationTo: 'Half Way Tree',
+          via: 'Meadowbrook, Red Hills Road',
+          price: "100"
+        },
+        {
+          busNum: '46Ax',
+          locationTo: 'Half Way Tree',
+          via: 'Meadowbrook, Red Hills Road',
+          price: "160"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Seaview',
+      id: 28,
+      routes: [
+        {
+          busNum: '50',
+          locationTo: 'Half Way Tree',
+          via: 'Hagley Park Road',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Duhaney Park',
+      id: 29,
+      routes: [
+        {
+          busNum: '32Ax',
+          locationTo: 'Half Way Tree',
+          via: 'Duhaney Park, Dunrobin Avenue',
+          price: "130"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Three Miles',
+      id: 30,
+      routes: [
+        {
+          busNum: '51',
+          locationTo: 'Half Way Tree',
+          via: 'Hagley Park Road',
+          price: "100"
+        },
+        {
+          busNum: '51Ex',
+          locationTo: 'Papine',
+          via: 'Hagley Park Rd., Half Way Tree, Hope Road',
+          price: "130"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Gordon Town',
+      id: 31,
+      routes: [
+        {
+          busNum: '61',
+          locationTo: 'City',
+          via: 'Old Hope Road, Tom Redcam Drive, Marescaux Road, East Street',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Hermitage',
+      id: 32,
+      routes: [
+        {
+          busNum: '66',
+          locationTo: 'City',
+          via: 'Mona Road, South Camp Road',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Irvine Hall',
+      id: 33,
+      routes: [
+        {
+          busNum: '68',
+          locationTo: 'City',
+          via: 'Hope Pastures, Old Hope Road, Cross Roads',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'August Town',
+      id: 34,
+      routes: [
+        {
+          busNum: '72',
+          locationTo: 'Half Way Tree',
+          via: 'Mona Road, Hope Road',
+          price: "100"
+        },
+        {
+          busNum: '77',
+          locationTo: 'City',
+          via: 'Mountain View Avenue',
+          price: "100"
+        },
+        {
+          busNum: '78',
+          locationTo: 'City',
+          via: 'Papine, Cross Roads',
+          price: "100"
+        },
+        {
+          busNum: '77Ex',
+          locationTo: 'City',
+          via: 'Mountain View Avenue',
+          price: "130"
+        },
+        {
+          busNum: '78Ex',
+          locationTo: 'City',
+          via: 'Papine, Cross Roads',
+          price: "130"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Barbican',
+      id: 35,
+      routes: [
+        {
+          busNum: '76',
+          locationTo: 'City',
+          via: 'East Kings House Road, New Kingston, Marescaux Road',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Rollington Town',
+      id: 36,
+      routes: [
+        {
+          busNum: '81',
+          locationTo: 'City',
+          via: 'South Camp Road, East Street',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Norman Gardens',
+      id: 37,
+      routes: [
+        {
+          busNum: '84',
+          locationTo: 'City',
+          via: 'Windward Road',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Rennock Lodge',
+      id: 38,
+      routes: [
+        {
+          busNum: '85',
+          locationTo: 'City',
+          via: 'Windward Road',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Manley Meadows',
+      id: 39,
+      routes: [
+        {
+          busNum: '87',
+          locationTo: 'City',
+          via: 'Windward Road',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Vineyard Town',
+      id: 40,
+      routes: [
+        {
+          busNum: '89',
+          locationTo: 'City',
+          via: 'Deanery Road, Upper Elleston Road',
+          price: "100"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Port Royal ',
+      id: 41,
+      routes: [
+        {
+          busNum: '98',
+          locationTo: 'City',
+          via: 'Sir Florizel Glaspole Highway, Windward Road',
+          price: "100"
+        },
+        {
+          busNum: '98Ex',
+          locationTo: 'City',
+          via: 'Sir Florizel Glaspole Highway, Windward Road',
+          price: "130"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Golden Spring',
+      id: 42,
+      routes: [
+        {
+          busNum: '52Ex',
+          locationTo: 'City',
+          via: 'Constant Spring, Half Way Tree, Cross Roads, Slipe Road',
+          price: "130"
+        }
+      ]
+    },
+    /* ------------------------------------*/
+    { name: 'Six Miles',
+      id: 43,
+      routes: [
+        {
+          busNum: '75Ex',
+          locationTo: 'Papine',
+          via: 'Molynes Road, Half Way Tree, Hope Road',
+          price: "130"
         }
       ]
     }
